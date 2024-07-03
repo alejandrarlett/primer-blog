@@ -1,0 +1,70 @@
+header{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+}
+header img{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+#Quiénsoy p{
+    display: flex;
+    justify-content: center;
+}
+.Título{
+    display: flex;
+    justify-content: center;
+}
+#Historias{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(91, 103, 103);
+}
+.caja{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.caja img{
+    width: 300px;
+    border-color: black;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    color: white;
+    display: flex;
+}
+#carrusel{
+    width: 90%;
+    margin: auto;
+}
